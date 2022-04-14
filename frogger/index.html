@@ -7,9 +7,206 @@
   <title>Frogger Nicholas</title>
   <link rel="stylesheet" href="../Frogger/styles.css">
   <script src="../Frogger/app.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <section id="main-box">
+      <div class="scoreboard banner">
+        <div class="scoreTime">
+      <h2 id="score">Score: 2 - <span id="your-score">0</span></h2>
+      <h2 id="time"><span id="time-left">75</span>'</h2>
+        </div>
+      </div>
+    <div class="grid">
+      <!-- First Row -->
+      <div class="cell first-row fans" ></div>
+      <div class="cell first-row fans"></div>
+      <div class="cell first-row fans"></div>
+      <div class="cell first-row fans"></div>
+      <div class="cell first-row"></div>
+      <div class="cell first-row"></div>
+      <div class="cell first-row fans"></div>
+      <div class="cell first-row fans"></div>
+      <div class="cell first-row fans"></div>
+      <div class="cell first-row fans"></div>
+      <!-- Second Row -->
+      <div class="cell second-row "></div>
+      <div class="cell second-row "></div>
+      <div class="cell second-row"></div>
+      <div class="cell second-row"></div>
+      <div class="cell second-row"></div>
+      <div class="cell second-row"></div>
+      <div class="cell second-row"></div>
+      <div class="cell second-row "></div>
+      <div class="cell second-row "></div>
+      <div class="cell second-row "></div>
+      <!-- Third Row -->
+      <div class="cell third-row"></div>
+      <div class="cell third-row"></div>
+      <div class="cell third-row team-mate2"></div>
+      <div class="cell third-row"></div>
+      <div class="cell third-row"></div>
+      <div class="cell third-row"></div>
+      <div class="cell third-row"></div>
+      <div class="cell third-row"></div>
+      <div class="cell third-row"></div>
+      <div class="cell third-row"></div>
+      <!-- Forth Row -->
+      <div class="cell forth-row"></div>
+      <div class="cell forth-row"></div>
+      <div class="cell forth-row"></div>
+      <div class="cell forth-row"></div>
+      <div class="cell forth-row"></div>
+      <div class="cell forth-row"></div>
+      <div class="cell forth-row"></div>
+      <div class="cell forth-row"></div>
+      <div class="cell forth-row"></div>
+      <div class="cell forth-row"></div>
+      <!-- Fifth Row-->
+      <div class="cell fifth-row"></div>
+      <div class="cell fifth-row"></div>
+      <div class="cell fifth-row"></div>
+      <div class="cell fifth-row"></div>
+      <div class="cell fifth-row"></div>
+      <div class="cell fifth-row"></div>
+      <div class="cell fifth-row"></div>
+      <div class="cell fifth-row"></div>
+      <div class="cell fifth-row"></div>
+      <div class="cell fifth-row"></div>
+      <!-- Sixth Row -->
+      <div class="cell sixth-row"></div>
+      <div class="cell sixth-row"></div>
+      <div class="cell sixth-row"></div>
+      <div class="cell sixth-row"></div>
+      <div class="cell sixth-row"></div>
+      <div class="cell sixth-row"></div>
+      <div class="cell sixth-row"></div>
+      <div class="cell sixth-row"></div>
+      <div class="cell sixth-row"></div>
+      <div class="cell sixth-row"></div>
+      <!-- Seventh Row -->
+      <div class="cell seventh-row"></div>
+      <div class="cell seventh-row"></div>
+      <div class="cell seventh-row"></div>
+      <div class="cell seventh-row"></div>
+      <div class="cell seventh-row"></div>
+      <div class="cell seventh-row"></div>
+      <div class="cell seventh-row"></div>
+      <div class="cell seventh-row"></div>
+      <div class="cell seventh-row"></div>
+      <div class="cell seventh-row team-mate1"></div>
+      <!-- Eighth Row -->
+      <div class="cell eighth-row"></div>
+      <div class="cell eighth-row"></div>
+      <div class="cell eighth-row"></div>
+      <div class="cell eighth-row"></div>
+      <div class="cell eighth-row"></div>
+      <div class="cell eighth-row"></div>
+      <div class="cell eighth-row"></div>
+      <div class="cell eighth-row"></div>
+      <div class="cell eighth-row"></div>
+      <div class="cell eighth-row"></div>
+      <!-- Nineth Row -->
+      <div class="cell nineth-row"></div>
+      <div class="cell nineth-row"></div>
+      <div class="cell nineth-row"></div>
+      <div class="cell nineth-row"></div>
+      <div class="cell nineth-row"></div>
+      <div class="cell nineth-row"></div>
+      <div class="cell nineth-row"></div>
+      <div class="cell nineth-row"></div>
+      <div class="cell nineth-row"></div>
+      <div class="cell nineth-row"></div>
+    </div>
+
+<div class="popUp active">
+  <div class="introPopUp popUpInner">
+
+      <div class="description">
+        <h2>Junior Star</h2>
+        <p>You are about to make your professional debut.
+        It is minute 75 and your team is losing 2-0.<br>
+        Make your impact and become a superstart! 🌟<br>
+        (Make sure to be a team player)</p>
+          <img class="arrows" src="https://media0.giphy.com/media/PjTzAksJ2LiW3uWbwa/200.webp?cid=ecf05e474r6zn77ohdogs8lm6g8dfu16pwjrw46f2lts3ltp&rid=200.webp&ct=s" alt="arrows">
+          <div class="starterButton">
+              <button class="start">START</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="popUp gameOverOverlay">
+  <div class="gameOver popUpInner">
+      <img class="gameOverGif" src="https://brianandrewcompton.files.wordpress.com/2016/12/gameover-v2.gif">
+      <button class="start restart losebutton">RESTART</button>
+  </div>
+</div>
+
+<div class="popUp winnerOverlay">
+  <div class="winner popUpInner">
+      <button class="start restart wbutton">RESTART</button>
+  </div>
+</div>
+
+<div class="popUp goalOverlay">
+  <div class="goal popUpInner">
+      <div class="blurry-filter">
+          <h2 class="youScore">What a GOAL!!</h2>
+          <button class="continue">SKIP</button>
+      </div>
+  </div>
+</div>
+
+<div class="popUp drawOverlay">
+  <div class="draw popUpInner">
+          <h2 class="game-draw-text">It is a draw at the end of 90 minutes !</h2>
+          <button class="start restart drawButton">RESTART</button>
+  </div>
+</div>
+
+<audio id="finalWhistle">
+  <source src="../frogger/referee-blowing-whistle-sound-effect.mp3"></soruce>
+</audio>
+
+<audio id="movePlayerSound">
+  <source src="../frogger/mixkit-soccer-ball-kick-2099.wav">
+</audio>
+
+<audio id="passPlayer">
+  <source src="../frogger/mixkit-hitting-soccer-ball-2112.wav">
+</audio>
+
+<audio id="gameSound">
+  <source src="../frogger/mixkit-stadium-chaotic-loud-applause-drums-and-chants-363.wav">
+</audio>
+
+<audio id="colosionSound">
+  <source src="../frogger/mixkit-effort-of-a-hit-given-2056.wav">
+</audio>
+
+<audio id="winner">
+  <source src="../frogger/mixkit-huge-crowd-cheering-victory-462.wav">
+</audio>
+  </section>
+
+  <audio id="goalSound">
+    <source src="../frogger/mixkit-police-short-whistle-615.wav">
+  </audio>
+
+  <audio id="loseSound">
+    <source src="../frogger/mixkit-crowd-chanting-at-stadium-438.wav">
+  </audio>
+
+  <audio id="drawSound">
+    <source src="../frogger/mixkit-clapping-male-crowd-439.wav">
+  </audio>
+
+  <audio id="outSound">
+    <source src="../frogger/mixkit-monsters-scream-1958.wav">
+  </audio>
 
 
 </body>

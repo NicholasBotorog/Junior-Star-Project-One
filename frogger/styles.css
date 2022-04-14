@@ -1,0 +1,307 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Tomorrow', sans-serif;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../frogger/STADION.gif");
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.score-board{
+  text-align: center;
+}
+#time {
+  text-align: center;
+}
+
+.grid{
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin-top: 100px;
+} 
+
+.grid div{
+  display: flex;
+  flex-direction: column;
+  /* border: 0.3px solid black; */
+  background-color: transparent;
+  flex-grow: 1;
+  width: 80px;
+  height: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.player{
+  background-image: url("../frogger/rolling-football-ball-gif.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+
+div .defender{
+  background-image: url('../frogger/Running.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+}
+
+
+div .keeper{
+  background-image: url('../frogger/fussball-soccer.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+
+div .defendingLine{
+  background-image: url('https://media3.giphy.com/media/VeN4uvUpOaM3VJ1m3A/200w.webp?cid=ecf05e476skg683eui4gzwtrf6d9zw0awkic5dt0j3gfwgs8&rid=200w.webp&ct=s');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+
+div .defendingLine2{
+  background-image: url('https://media3.giphy.com/media/PjlqtxvL7dFQLBy4ME/200w.webp?cid=ecf05e47c17mic79y6dpjqdo8ap26c7x6937ca53ivu58zt0&rid=200w.webp&ct=s');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+
+.team-mate1{
+  background-image: url('https://media3.giphy.com/media/9r19nh6SB9ajTn6w9E/200w.webp?cid=ecf05e47oa30b9sl2xiuirxiijapp2gwl2fpspf5g24494m4&rid=200w.webp&ct=s') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+
+.team-mate2{
+  background-image: url('https://media3.giphy.com/media/9r19nh6SB9ajTn6w9E/200w.webp?cid=ecf05e47oa30b9sl2xiuirxiijapp2gwl2fpspf5g24494m4&rid=200w.webp&ct=s') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+.fans{
+  /* background-image: url('../frogger/crowd-clapping.gif') ; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+}
+
+.introPopUp {
+  background-image: url('https://www.wilusz.tv/wp-content/uploads/2020/03/Scene_2.gif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+.popUp {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 350ms;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.popUpInner {
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.popUp.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.description {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(255 235 179);
+  box-shadow: 1px 1px 15px 0 rgb(215 213 254);;
+  border-radius: 20px;
+  color:hsl(198, 64%, 33%);
+  line-height: 3;
+}
+
+button {
+  text-align: center;
+  width: 125px;
+  height: 38px;
+  background-color: hsl(243deg 83% 91%);
+  border: none;
+  box-shadow: 0 0 20px 0 rgb(243deg 83% 91%);
+  border-radius: 20px;
+  font-size: 25px;
+  color:hsl(198, 64%, 33%);
+  cursor: pointer;
+}
+
+
+.blurry-filter {
+  height: 100vh;
+  width: 100vh;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.goal {
+  background-image: url('../frogger/08de93c3b6a19cab34eef9c654e34571.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.youScore {
+  text-align: center;
+  font-size: 50px;
+  color:hsl(339deg 100% 70%);
+}
+
+.continue{
+  margin-top: 500px;
+  width: 190px;
+  height: 65px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.starterButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.draw {
+  background-image: url('https://acegif.com/wp-content/gifs/handshake-25.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+.game-draw-text{
+  margin-left: 23px;
+  text-align: center;
+  margin-bottom: 225px;
+  margin-top: 150px;
+  font-size: 40px;
+  color: #fdd100;
+}
+
+.drawButton{
+  margin-left: 300px;
+  margin-top: 220px;
+} 
+
+.arrows {
+  height: 80px;
+  width: 110px;
+  margin-bottom: 20px;
+}
+
+.gameOver {
+  background-image: url('https://media3.giphy.com/media/dwAPwXFHTaEv67avOE/giphy.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.winner{
+  background-image: url('https://i.pinimg.com/originals/3a/21/4a/3a214af1caec7ceef2f5454df3464100.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.winnerGif{
+  width:803px;
+  height: 672px;
+}
+
+.gameOverGif {
+  height: 134px;
+  margin-top: 190px;
+}
+
+
+.start.restart {
+  width: 190px;
+  height: 65px;
+  border: none;
+  border-radius: 20px;
+  font-size: 25px;
+  color:hsl(198, 64%, 33%);
+}
+
+.wbutton{
+  margin-top: 500px;
+}
+
+.banner{
+  background-image: url(../frogger/banner-6617550__340.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  margin-top:12px;
+}
+
+.scoreTime{
+  text-align: center;
+  color: white;
+}
+
+.losebutton{
+  margin-top: 100px;
+}
