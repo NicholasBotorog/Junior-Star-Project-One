@@ -13,7 +13,7 @@ section{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("../frogger/STADION.gif");
+  background-image: url("../Project-One-/Styles/STADION.gif");
   background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,13 +45,13 @@ section{
   background-color: transparent;
   flex-grow: 1;
   width: 80px;
-  height: 70px;
-  margin-top: 0;
+  height: 80px;
+  margin-top: -9px;
   margin-bottom: 0;
 }
 
 .player{
-  background-image: url("../frogger/rolling-football-ball-gif.gif");
+  background-image: url("../Project-One-/Styles/rolling-football-ball-gif.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,7 +59,7 @@ section{
 }
 
 div .defender{
-  background-image: url('../frogger/Running.gif');
+  background-image: url('../Project-One-/Styles//Running.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,7 +68,7 @@ div .defender{
 
 
 div .keeper{
-  background-image: url('../frogger/fussball-soccer.gif');
+  background-image: url('../Project-One-/Styles/fussball-soccer.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,7 +187,7 @@ button {
 }
 
 .goal {
-  background-image: url('../frogger/08de93c3b6a19cab34eef9c654e34571.gif');
+  background-image: url('../Project-One-/Styles/08de93c3b6a19cab34eef9c654e34571.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -289,7 +289,7 @@ h1 {
 }
 
 .banner{
-  background-image: url(../frogger/banner-6617550__340.webp);
+  background-image: url(../Project-One-/Styles/banner-6617550__340.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
