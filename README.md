@@ -82,6 +82,9 @@ In order to score, the player has to pass the goalkeeper. The scoring positions 
 <img width="1503" alt="Screen Shot 2022-06-23 at 7 26 08 PM" src="https://user-images.githubusercontent.com/103049873/175349027-6eb3550a-bef1-4077-8f5d-c88fd748772a.png">
 <img width="1503" alt="Screen Shot 2022-06-23 at 7 25 47 PM" src="https://user-images.githubusercontent.com/103049873/175349048-ae583396-66b2-4b46-badd-4bd1e488b40c.png">
 
+## Wins:
+* My biggest win was creating my first ever project. At the begining I was overwhelmed about the idea of creating a game from scratch, but it turns out even after just one month of studying something like this is possible and doable. 
+
 ## Key learnings:
 
  * Learned how to use Flex-box.
@@ -95,6 +98,3 @@ In order to score, the player has to pass the goalkeeper. The scoring positions 
 
 ## Bugs:
 * There is a bug with the final whistle after the game is over.
-
-## Wins:
-* My biggest win was creating my first ever project. At the begining I was overwhelmed about the idea of creating a game from scratch, but it turns out even after just one month of studying something like this is possible and doable. 
