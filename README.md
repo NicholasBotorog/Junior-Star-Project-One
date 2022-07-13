@@ -37,6 +37,10 @@ Junior Start is a game based on the game Frogger. You must dribble the ball acro
 
 ## The approach taken:
 
+My plan was to get the functionalities done first, make sure I have a perfectly running app and style it after. 
+
+I allocated myself ¾ of the time to make sure all the functionalities are done and the rest of ¼ I was styling. 
+
 I started by building the grid using flex-box and implementing the keyUp function to move the player on the pitch. 
 
 <img width="557" alt="Screen Shot 2022-06-23 at 6 32 33 PM" src="https://user-images.githubusercontent.com/103049873/175337678-fb52ce15-9c97-4002-ad6f-4dc4aacd9b3f.png">
@@ -83,7 +87,7 @@ In order to score, the player has to pass the goalkeeper. The scoring positions 
 <img width="1503" alt="Screen Shot 2022-06-23 at 7 25 47 PM" src="https://user-images.githubusercontent.com/103049873/175349048-ae583396-66b2-4b46-badd-4bd1e488b40c.png">
 
 ## Wins:
-* My biggest win was creating my first ever project. At the begining I was overwhelmed about the idea of creating a game from scratch, but it turns out even after just one month of studying something like this is possible and doable. 
+* My biggest win was creating my first ever project. At the beginning I was overwhelmed about the idea of creating a game from scratch, but it turns out even after just one month of studying something like this is possible and doable. 
 
 ## Key learnings:
 
