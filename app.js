@@ -121,6 +121,7 @@ function init(){
   }
     
   let timeLeft = 75
+  
   const passedPosition = 22
   function passPlayer () { 
     if (cells[69].classList.contains(player)){
@@ -227,10 +228,10 @@ function init(){
     timeLeft ++ 
     timeLeftDisplay.innerHTML = timeLeft
     if (timeLeftDisplay.innerHTML >= 90 && score < 2 ){
+      outSoundPlay()
       finalWhistlePlay()
       timeLeft = 75
       yourScore.innerHTML = scoreStart
-      outSoundPlay()
       popGameOver.classList.add('active')
     } else if (timeLeftDisplay.innerHTML >= 90 && score === 2){
       finalWhistlePlay()
