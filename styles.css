@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: "Tomorrow", sans-serif;
+  font-family: 'Tomorrow', sans-serif;
 }
 
 section {
@@ -13,7 +13,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("../Project-One-/Styles/STADION.gif");
+  background-image: url('./Styles/STADION.gif');
   background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@ section {
 }
 
 .player {
-  background-image: url("../Project-One-/Styles/rolling-football-ball-gif.gif");
+  background-image: url('./Styles/rolling-football-ball-gif.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,7 +59,7 @@ section {
 }
 
 div .defender {
-  background-image: url("../Project-One-/Styles//Running.gif");
+  background-image: url('./Styles//Running.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,7 +67,7 @@ div .defender {
 }
 
 div .keeper {
-  background-image: url("../Project-One-/Styles/fussball-soccer.gif");
+  background-image: url('./Styles/fussball-soccer.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,7 +75,7 @@ div .keeper {
 }
 
 div .defendingLine {
-  background-image: url("https://media3.giphy.com/media/VeN4uvUpOaM3VJ1m3A/200w.webp?cid=ecf05e476skg683eui4gzwtrf6d9zw0awkic5dt0j3gfwgs8&rid=200w.webp&ct=s");
+  background-image: url('https://media3.giphy.com/media/VeN4uvUpOaM3VJ1m3A/200w.webp?cid=ecf05e476skg683eui4gzwtrf6d9zw0awkic5dt0j3gfwgs8&rid=200w.webp&ct=s');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,7 +83,7 @@ div .defendingLine {
 }
 
 div .defendingLine2 {
-  background-image: url("https://media3.giphy.com/media/PjlqtxvL7dFQLBy4ME/200w.webp?cid=ecf05e47c17mic79y6dpjqdo8ap26c7x6937ca53ivu58zt0&rid=200w.webp&ct=s");
+  background-image: url('https://media3.giphy.com/media/PjlqtxvL7dFQLBy4ME/200w.webp?cid=ecf05e47c17mic79y6dpjqdo8ap26c7x6937ca53ivu58zt0&rid=200w.webp&ct=s');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,7 +91,7 @@ div .defendingLine2 {
 }
 
 .team-mate1 {
-  background-image: url("https://media3.giphy.com/media/9r19nh6SB9ajTn6w9E/200w.webp?cid=ecf05e47oa30b9sl2xiuirxiijapp2gwl2fpspf5g24494m4&rid=200w.webp&ct=s");
+  background-image: url('https://media3.giphy.com/media/9r19nh6SB9ajTn6w9E/200w.webp?cid=ecf05e47oa30b9sl2xiuirxiijapp2gwl2fpspf5g24494m4&rid=200w.webp&ct=s');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,7 +99,7 @@ div .defendingLine2 {
 }
 
 .team-mate2 {
-  background-image: url("https://media3.giphy.com/media/9r19nh6SB9ajTn6w9E/200w.webp?cid=ecf05e47oa30b9sl2xiuirxiijapp2gwl2fpspf5g24494m4&rid=200w.webp&ct=s");
+  background-image: url('https://media3.giphy.com/media/9r19nh6SB9ajTn6w9E/200w.webp?cid=ecf05e47oa30b9sl2xiuirxiijapp2gwl2fpspf5g24494m4&rid=200w.webp&ct=s');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,7 +114,7 @@ div .defendingLine2 {
 }
 
 .introPopUp {
-  background-image: url("https://www.wilusz.tv/wp-content/uploads/2020/03/Scene_2.gif");
+  background-image: url('https://www.wilusz.tv/wp-content/uploads/2020/03/Scene_2.gif');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -185,7 +185,7 @@ button {
 }
 
 .goal {
-  background-image: url("../Project-One-/Styles/08de93c3b6a19cab34eef9c654e34571.gif");
+  background-image: url('./Styles/08de93c3b6a19cab34eef9c654e34571.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -214,7 +214,7 @@ h1 {
 }
 
 .draw {
-  background-image: url("https://acegif.com/wp-content/gifs/handshake-25.gif");
+  background-image: url('https://acegif.com/wp-content/gifs/handshake-25.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -242,7 +242,7 @@ h1 {
 }
 
 .gameOver {
-  background-image: url("https://media3.giphy.com/media/dwAPwXFHTaEv67avOE/giphy.gif");
+  background-image: url('https://media3.giphy.com/media/dwAPwXFHTaEv67avOE/giphy.gif');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -252,7 +252,7 @@ h1 {
 }
 
 .winner {
-  background-image: url("https://i.pinimg.com/originals/3a/21/4a/3a214af1caec7ceef2f5454df3464100.gif");
+  background-image: url('https://i.pinimg.com/originals/3a/21/4a/3a214af1caec7ceef2f5454df3464100.gif');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -285,7 +285,7 @@ h1 {
 }
 
 .banner {
-  background-image: url(../Project-One-/Styles/banner-6617550__340.webp);
+  background-image: url(./Styles/banner-6617550__340.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
